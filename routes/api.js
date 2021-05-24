@@ -48,7 +48,7 @@ function dataBaseQuery(req, res, qyeryToDataBase) {
   host: '127.0.0.1',
   port: '3306',
   user: 'root',
-  password: 'fktrctq',
+  password: 'somepassword',
   database : 'onlineshop'});
   try {
     connection.connect(function(err) {
@@ -78,7 +78,7 @@ function dataBaseQueryWithoutSand(req, res, qyeryToDataBase) {
   host: '127.0.0.1',
   port: '3306',
   user: 'root',
-  password: 'fktrctq',
+  password: 'somepassword',
   database : 'onlineshop'});
   try {
     connection.connect(function(err) {
@@ -151,7 +151,7 @@ router.post('/registration', bodyParserJson, (req, res) => {
     host: '127.0.0.1',
     port: '3306',
     user: 'root',
-    password: 'fktrctq',
+    password: 'somepassword',
     database : 'onlineshop'});
     try {
       connection.connect(function(err) {
