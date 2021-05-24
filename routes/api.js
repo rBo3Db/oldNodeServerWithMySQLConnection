@@ -183,14 +183,7 @@ router.post('/registration', bodyParserJson, (req, res) => {
     }
 
   }
-  catch (exception){
-    console.log(exception);
-  }
-  finally {
-    connection.close;
-  }
-    console.log();
-})
+)
 
 router.post('/login', bodyParserJson, (req, res) => {
   let data = users;
